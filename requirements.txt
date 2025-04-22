@@ -1,5 +1,6 @@
 matplotlib
 numpy
-gym==0.26.2              # legacy gym
-gymnasium==0.28.1        # updated gym API
-gymnasium-robotics==1.3.1       # robotics suite for gymnasium
+gym==0.26.2
+gym-notices==0.0.8
+gymnasium==1.1.1
+gymnasium-robotics==1.3.1
