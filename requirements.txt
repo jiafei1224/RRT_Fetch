@@ -1,0 +1,5 @@
+matplotlib
+numpy
+gym==0.26.2              # legacy gym
+gymnasium==0.28.1        # updated gym API
+gymnasium-robotics       # robotics suite for gymnasium
