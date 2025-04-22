@@ -3,6 +3,8 @@ import gym
 import random
 import os
 import numpy as np
+import rrt_fetch_obs
+import rrt_fetch_obs
 import gymnasium as gym          # NEW import
 import gymnasium_robotics        # registers the Fetch tasks
 ##############################################################################################################################
@@ -13,8 +15,7 @@ print("Enter 1 for the Smoothened Path.\nEnter 2 for the Actual Path.")
 i = int(input("\nEnter your Response: "))
 print('\n=====================================================================\n')
 
-# fetch_path, extend_path = rrt_fetch_obs.main()
-fetch_path, extend_path = gt.main()
+fetch_path, extend_path = rrt_fetch_obs.main()
 
 start = [-100,-100,-100, 1]
 
