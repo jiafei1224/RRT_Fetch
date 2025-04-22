@@ -3,7 +3,6 @@ import gym
 import random
 import os
 import numpy as np
-import gt
 import gymnasium as gym          # NEW import
 import gymnasium_robotics        # registers the Fetch tasks
 ##############################################################################################################################
