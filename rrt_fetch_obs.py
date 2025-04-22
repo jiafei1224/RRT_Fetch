@@ -2,7 +2,7 @@
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 import math
-
+import random
 #--------------------------------------Classes--------------------------------------------
 #Environment and Obstacles
 class env3d:
